@@ -13,6 +13,6 @@ int main() {
     if (n % 2 == 1) ctr++;
   }
 
-  cout << format("Porcentaje de impares: {}%\n", ctr / 10. * 100);
+  cout << "Porcentaje de impares: " << ctr / 10. * 100 << "%" << "\n";
   return 0;
 }
